@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct TestAssignmentApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookListView(
+                store: Store(
+                    initialState: BookListFeature.State(),
+                    reducer: { BookListFeature() }
+                )
+            )
         }
     }
 }

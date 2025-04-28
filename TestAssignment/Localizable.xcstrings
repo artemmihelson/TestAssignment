@@ -1,0 +1,47 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "Chapter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapter %d of %d"
+          }
+        }
+      }
+    },
+    "Chapter %d of %d" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Chapter %1$d of %2$d"
+          }
+        }
+      }
+    },
+    "Speech rate" : {
+
+    },
+    "Speed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed x%.1f"
+          }
+        }
+      }
+    },
+    "Speed: %.1fx" : {
+
+    }
+  },
+  "version" : "1.0"
+}
